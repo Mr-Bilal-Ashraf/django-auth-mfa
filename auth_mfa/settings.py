@@ -3,7 +3,7 @@ from django.conf import settings
 django_mfa = getattr(settings, "DJANGO_MFA", dict())
 
 Defaults = {
-    "ISSUER_NAME": django_mfa.get('ISSUER_NAME', 'Synares'),
+    "ISSUER_NAME": django_mfa.get('ISSUER_NAME', 'Xavier_Tech_Systems'),
     "VALID_WINDOW": django_mfa.get('VALID_WINDOW', 1)
 }
 
